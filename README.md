@@ -1,5 +1,6 @@
-# angular-6-registration-login-example
+# angular-6-registration-login-example-cli
 
-Angular 6 User Registration and Login Example with Webpack 4
+Angular 6 - User Registration and Login Example with Angular CLI
 
-Full tutorial with example available at http://jasonwatmore.com/post/2018/05/16/angular-6-user-registration-and-login-example-tutorial
+To see a demo and further details go to http://jasonwatmore.com/post/2018/05/16/angular-6-user-registration-and-login-example-tutorial
+
