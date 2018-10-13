@@ -1,19 +1,19 @@
-<h2>Smart-RPA's</h2>
+<h2>Smart-RPA</h2>
 <ul class="smartrpa">
-  <li *ngFor="let hero of heroes"
-    [class.selected]="hero === selectedHero"
-    (click)="onSelect(hero)">
-    <span class="badge">{{hero.id}}</span> {{hero.name}}
+  <li *ngFor="let srpa of rpa"
+    [class.selected]="srpa === selectedRPA"
+    (click)="onSelect(srpa)">
+    <span class="badge">{{srpa.id}}</span> {{srpa.name}}
   </li>
 </ul>
 
-<div *ngIf="selectedHero">
+<div *ngIf="selectedRPA">
 
-  <h2>{{selectedHero.name | uppercase}} Details</h2>
-  <div><span>id: </span>{{selectedHero.id}}</div>
+  <h2>{{selectedRPA.name | uppercase}} Details</h2>
+  <div><span>id: </span>{{selectedRPA.id}}</div>
   <div>
     <label>name:
-      <input [(ngModel)]="selectedHero.name" placeholder="name">
+      <input [(ngModel)]="selectedRPA.name" placeholder="name">
     </label>
   </div>
 

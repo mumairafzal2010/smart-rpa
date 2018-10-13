@@ -8,14 +8,14 @@ import { SMARTRPA } from '../smart-rpa';
 })
 export class ListComponent implements OnInit {
   
-  heroes = SMARTRPA;
-  selectedHero: Rpa;
+  rpa = SMARTRPA;
+  selectedRPA: Rpa;
 
   constructor() { }
 
   ngOnInit() {
   }
-onSelect(hero: Rpa): void {
-    this.selectedHero = hero;
+onSelect(srpa: Rpa): void {
+    this.selectedRPA = srpa;
   }
 }
