@@ -1,6 +1,6 @@
-﻿<h1>Hi {{currentUser.firstName}}!</h1>
-<p>You're logged in with Angular 6!!</p>
-<h3>All registered users:</h3>
+﻿<h1>Hello {{currentUser.firstName}}!</h1>
+<p>Welcome to Smart RPA</p>
+<h3>Registered users:</h3>
 <ul>
     <li *ngFor="let user of users">
         {{user.username}} ({{user.firstName}} {{user.lastName}})
@@ -8,3 +8,4 @@
     </li>
 </ul>
 <p><a [routerLink]="['/login']">Logout</a></p>
+<app-list ></app-list>

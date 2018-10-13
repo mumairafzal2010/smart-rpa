@@ -2,7 +2,7 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { ReactiveFormsModule }    from '@angular/forms';
 import { HttpClientModule, HTTP_INTERCEPTORS } from '@angular/common/http';
-
+import { FormsModule } from '@angular/forms';
 // used to create fake backend
 import { fakeBackendProvider } from './_helpers';
 
@@ -15,14 +15,17 @@ import { JwtInterceptor, ErrorInterceptor } from './_helpers';
 import { AlertService, AuthenticationService, UserService } from './_services';
 import { HomeComponent } from './home';
 import { LoginComponent } from './login';
-import { RegisterComponent } from './register';
+import { RegisterComponent } from './register';;
+import { ListComponent } from './list/list.component'
+
 
 @NgModule({
     imports: [
         BrowserModule,
         ReactiveFormsModule,
         HttpClientModule,
-        routing
+        routing,
+        FormsModule 
     ],
     declarations: [
         AppComponent,
@@ -30,7 +33,8 @@ import { RegisterComponent } from './register';
         HomeComponent,
         LoginComponent,
         RegisterComponent
-    ],
+,
+        ListComponent    ],
     providers: [
         AuthGuard,
         AlertService,
