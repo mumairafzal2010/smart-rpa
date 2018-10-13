@@ -1,5 +1,6 @@
 ﻿import { Routes, RouterModule } from '@angular/router';
 
+import { ListService } from './list.service';
 import { HomeComponent } from './home';
 import { LoginComponent } from './login';
 import { RegisterComponent } from './register';

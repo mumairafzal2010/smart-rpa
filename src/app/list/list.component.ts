@@ -1,6 +1,8 @@
 import { Component, OnInit } from '@angular/core';
 import { Rpa } from '../rpa';
 import { SMARTRPA } from '../smart-rpa';
+import { ListService } from '../list.service';
+
 @Component({
   selector: 'app-list',
   templateUrl: './list.component.html',
