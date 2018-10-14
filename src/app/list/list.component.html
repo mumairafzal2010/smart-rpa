@@ -12,8 +12,30 @@
   <h2>{{selectedRPA.name | uppercase}} Details</h2>
   <div><span>id: </span>{{selectedRPA.id}}</div>
   <div>
+      
+
     <label>name:
-      <input [(ngModel)]="selectedRPA.name" placeholder="name">
+    
+      <label [(ngModel)]="selectedRPA.name" placeholder="name"> </label>
+      <head>
+          <style>
+          .button {
+              background-color: #4CAF50;
+              border: none;
+              color: white;
+              padding: 15px 32px;
+              text-align: center;
+              text-decoration: none;
+              display: inline-block;
+              font-size: 16px;
+              margin: 4px 2px;
+              cursor: pointer;
+          }
+          </style>
+          </head>
+          <body>
+              <a href="#" class="button">Start</a>
+              </body>
     </label>
   </div>
 
