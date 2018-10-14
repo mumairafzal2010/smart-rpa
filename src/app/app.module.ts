@@ -17,6 +17,8 @@ import { HomeComponent } from './home';
 import { LoginComponent } from './login';
 import { RegisterComponent } from './register';;
 import { ListComponent } from './list/list.component'
+;
+import { AppRoutingModule } from './/app-routing.module';
 
 
 @NgModule({
@@ -25,7 +27,10 @@ import { ListComponent } from './list/list.component'
         ReactiveFormsModule,
         HttpClientModule,
         routing,
-        FormsModule 
+        FormsModule ,
+        AppRoutingModule,
+  
+        
     ],
     declarations: [
         AppComponent,
@@ -34,7 +39,9 @@ import { ListComponent } from './list/list.component'
         LoginComponent,
         RegisterComponent
 ,
-        ListComponent    ],
+        ListComponent ,
+        
+          ],
     providers: [
         AuthGuard,
         AlertService,

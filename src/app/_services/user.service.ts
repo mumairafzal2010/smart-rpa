@@ -7,7 +7,9 @@ import { User } from '../_models';
 @Injectable()
 export class UserService {
     constructor(private http: HttpClient) { }
-
+    getData(){
+        
+    }
     getAll() {
         return this.http.get<User[]>(`${environment.apiUrl}/users`);
     }
