@@ -5,11 +5,11 @@ import MySQLdb
 
 # These environment variables are configured in app.yaml.
 CLOUDSQL_USER = 'root'
-CLOUDSQL_PASSWORD = 'qw@#er123'
+CLOUDSQL_PASSWORD = none
 
 
 db = MySQLdb.connect(
-            host='35.238.101.157', user=CLOUDSQL_USER, passwd=CLOUDSQL_PASSWORD)
+            host=none, user=CLOUDSQL_USER, passwd=CLOUDSQL_PASSWORD)
 
 cursor = db.cursor()
 
