@@ -1,6 +1,6 @@
-# angular-6-registration-login-example-cli
+# RPA/SPA Project
+Smart Process Automation with Visually Assisted Training
 
-Angular 6 - User Registration and Login Example with Angular CLI
+![alt text](https://challengepost-s3-challengepost.netdna-ssl.com/photos/production/software_photos/000/693/434/datas/original.png)
 
-To see a demo and further details go to http://jasonwatmore.com/post/2018/05/16/angular-6-user-registration-and-login-example-tutorial
-
+Our frustration from several online applications sparked our minds to create something that alleviates the issues commonly found in multi-step forms. Our project, TUSStart, is a cloud-based solution for robotic process automation. A software platform that allows users to use some of the pre-trained tasks to automate filling out buggy/slow multi-step forms, helps checking availability from a particular website or even navigating buggy enterprise software. We developed a platform where users can register, log in, and view a community list of automated tasks. Some of the pre-trained tasks include filling out buggy/slow multi-step forms, checking availability from a particular website, navigating buggy enterprise software, and more. A user can simply download the skill, change any parameters, and queue the job to the bot. The bot will then complete the job and notify the user if the task was completed or if it needs attention. Time was our biggest roadblock due to many smaller issues arising both from a lack of experience and software bugs. We were able to actually automate the tasks we wanted, showing off the main functionality of the platform. We hope to fix some of the security issues we had and also improve the overall user experience and interface.
